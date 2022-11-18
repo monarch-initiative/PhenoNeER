@@ -26,7 +26,7 @@ public class RequestTest {
         assertThat(json, equalTo("""
                 {
                   "payload" : "An example payload"
-                }"""));
+                }""".replace("\n", System.lineSeparator())));
     }
 
 }

@@ -51,6 +51,6 @@ public class ResponseTest {
                       "excluded" : true
                     } ]
                   }
-                }"""));
+                }""".replace("\n", System.lineSeparator())));
     }
 }

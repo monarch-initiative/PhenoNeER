@@ -1,9 +1,9 @@
-package org.monarchinitiative.phenoneer.model;
+package org.monarchinitiative.phenoneer.model.impl;
 
 import org.monarchinitiative.phenol.ontology.data.TermId;
+import org.monarchinitiative.phenoneer.model.Concept;
 
-record ConceptDefault(TermId id, int start, int end, boolean excluded) implements Concept {
-
+public record ConceptDefault(TermId id, int start, int end, boolean excluded) implements Concept {
     @Override
     public TermId getId() {
         return id;

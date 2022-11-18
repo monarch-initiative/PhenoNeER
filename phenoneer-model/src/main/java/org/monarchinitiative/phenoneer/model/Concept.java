@@ -1,10 +1,10 @@
-package org.monarchinitiative.bionerapi.model;
+package org.monarchinitiative.phenoneer.model;
 
 import com.fasterxml.jackson.annotation.JsonGetter;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
-import org.monarchinitiative.bionerapi.model.impl.ConceptDefault;
-import org.monarchinitiative.bionerapi.model.impl.TermIdSerializer;
+import org.monarchinitiative.phenoneer.model.impl.ConceptDefault;
+import org.monarchinitiative.phenoneer.model.impl.TermIdSerializer;
 import org.monarchinitiative.phenol.ontology.data.Identified;
 import org.monarchinitiative.phenol.ontology.data.TermId;
 

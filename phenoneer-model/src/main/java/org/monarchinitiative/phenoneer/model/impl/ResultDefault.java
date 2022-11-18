@@ -1,7 +1,7 @@
-package org.monarchinitiative.bionerapi.model.impl;
+package org.monarchinitiative.phenoneer.model.impl;
 
-import org.monarchinitiative.bionerapi.model.Concept;
-import org.monarchinitiative.bionerapi.model.Result;
+import org.monarchinitiative.phenoneer.model.Concept;
+import org.monarchinitiative.phenoneer.model.Result;
 
 import java.util.Collection;
 

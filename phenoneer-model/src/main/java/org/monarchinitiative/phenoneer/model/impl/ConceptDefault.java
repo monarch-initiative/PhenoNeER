@@ -1,10 +1,9 @@
-package org.monarchinitiative.bionerapi.model.impl;
+package org.monarchinitiative.phenoneer.model.impl;
 
-import org.monarchinitiative.bionerapi.model.Concept;
 import org.monarchinitiative.phenol.ontology.data.TermId;
+import org.monarchinitiative.phenoneer.model.Concept;
 
 public record ConceptDefault(TermId id, int start, int end, boolean excluded) implements Concept {
-
     @Override
     public TermId getId() {
         return id;

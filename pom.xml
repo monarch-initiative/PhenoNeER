@@ -4,12 +4,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.monarchinitiative.bionerapi</groupId>
-    <artifactId>BioNERApi</artifactId>
+    <groupId>org.monarchinitiative.phenoneer</groupId>
+    <artifactId>PhenoNeER</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
-    <name>BioNERApi</name>
-    <description>Bio Namd Entity Recognition API</description>
+    <name>PhenoNeER</name>
+    <description>An API for Phenotype Named Entity Recognition tasks</description>
     <packaging>pom</packaging>
 
     <prerequisites>
@@ -47,9 +47,9 @@
     </developers>
 
     <scm>
-        <connection>scm:git:https://github.com/monarch-initiative/BioNERApi.git</connection>
-        <developerConnection>scm:git:ssh://github.com:monarch-initiative/BioNERApi.git</developerConnection>
-        <url>https://github.com/monarch-initiative/BioNERApi</url>
+        <connection>scm:git:https://github.com/monarch-initiative/PhenoNeER.git</connection>
+        <developerConnection>scm:git:ssh://github.com:monarch-initiative/PhenoNeER.git</developerConnection>
+        <url>https://github.com/monarch-initiative/PhenoNeER</url>
         <tag>v${project.version}</tag>
     </scm>
 
@@ -65,7 +65,7 @@
     </distributionManagement>
 
     <modules>
-        <module>bioner-api-model</module>
+        <module>phenoneer-model</module>
     </modules>
 
     <properties>

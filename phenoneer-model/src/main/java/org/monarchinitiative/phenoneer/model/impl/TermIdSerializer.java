@@ -1,4 +1,4 @@
-package org.monarchinitiative.bionerapi.model.impl;
+package org.monarchinitiative.phenoneer.model.impl;
 
 import com.fasterxml.jackson.core.JsonGenerator;
 import com.fasterxml.jackson.databind.SerializerProvider;

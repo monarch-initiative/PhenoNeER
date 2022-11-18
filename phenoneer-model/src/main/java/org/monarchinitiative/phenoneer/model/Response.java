@@ -1,4 +1,4 @@
-package org.monarchinitiative.bionerapi.model;
+package org.monarchinitiative.phenoneer.model;
 
 import com.fasterxml.jackson.annotation.JsonGetter;
 

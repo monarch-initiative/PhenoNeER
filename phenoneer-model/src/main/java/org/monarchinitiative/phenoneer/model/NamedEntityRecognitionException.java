@@ -1,4 +1,4 @@
-package org.monarchinitiative.bionerapi.model;
+package org.monarchinitiative.phenoneer.model;
 
 /**
  * An exception to signal issues encountered during the named entity recognition.

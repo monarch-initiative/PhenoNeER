@@ -1,4 +1,4 @@
-package org.monarchinitiative.bionerapi.model;
+package org.monarchinitiative.phenoneer.model;
 
 record RequestDefault(String payload) implements Request {
     @Override

@@ -1,4 +1,4 @@
-package org.monarchinitiative.bionerapi.model;
+package org.monarchinitiative.phenoneer.model;
 
 import org.monarchinitiative.phenol.ontology.data.TermId;
 

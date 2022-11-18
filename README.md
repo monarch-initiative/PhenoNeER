@@ -1,4 +1,4 @@
-[![Java CI](https://github.com/monarch-initiative/BioNERApi/workflows/Java%20CI%20with%20Maven/badge.svg)](https://github.com/monarch-initiative/BioNERApi/actions/workflows/maven.yml)
+[![Java CI](https://github.com/monarch-initiative/PhenoNeER/workflows/Java%20CI%20with%20Maven/badge.svg)](https://github.com/monarch-initiative/PhenoNeER/actions/workflows/maven.yml)
 
-# BioNERApi
-Bio Namd Entity Recognition API
+# PhenoNeER
+An API for Phenotype Named Entity Recognition tasks. 

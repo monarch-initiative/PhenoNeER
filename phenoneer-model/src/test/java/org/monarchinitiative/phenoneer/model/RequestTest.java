@@ -20,13 +20,11 @@ public class RequestTest {
 
     @Test
     public void serializationWorks() throws Exception {
-        Request request = Request.of("An example payload");
-        String json = mapper.writeValueAsString(request);
+        Request request = Request.of(TestData.PAYLOAD);
+        String actual = mapper.writeValueAsString(request);
 
-        assertThat(json, equalTo("""
-                {
-                  "payload" : "An example payload"
-                }""".replace("\n", System.lineSeparator())));
+        String expected = TestData.readFile(RequestTest.class.getResourceAsStream("request.json"));
+        assertThat(actual, equalTo(expected));
     }
 
 }

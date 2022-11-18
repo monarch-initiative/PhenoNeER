@@ -6,7 +6,7 @@
 
     <groupId>org.monarchinitiative.phenoneer</groupId>
     <artifactId>PhenoNeER</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2-SNAPSHOT</version>
 
     <name>PhenoNeER</name>
     <description>An API for Phenotype Named Entity Recognition tasks</description>

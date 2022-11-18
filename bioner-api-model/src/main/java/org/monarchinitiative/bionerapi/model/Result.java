@@ -1,6 +1,7 @@
 package org.monarchinitiative.bionerapi.model;
 
 import com.fasterxml.jackson.annotation.JsonGetter;
+import org.monarchinitiative.bionerapi.model.impl.ResultDefault;
 
 import java.util.Collection;
 

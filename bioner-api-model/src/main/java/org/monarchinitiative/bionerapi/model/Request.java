@@ -1,6 +1,7 @@
 package org.monarchinitiative.bionerapi.model;
 
 import com.fasterxml.jackson.annotation.JsonGetter;
+import org.monarchinitiative.bionerapi.model.impl.RequestDefault;
 
 /**
  * A NER request with a {@code String} payload.
